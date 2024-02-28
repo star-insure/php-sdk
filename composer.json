@@ -1,0 +1,19 @@
+{
+    "name": "star-insure/php-sdk",
+    "description": "The SDK for Star Insure PHP projects.",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "StarInsure\\PhpSdk\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Alex Clark",
+            "email": "hello@alexclark.co.nz"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}
