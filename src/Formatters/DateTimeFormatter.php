@@ -2,7 +2,9 @@
 
 namespace StarInsure\PhpSdk\Formatters;
 
-class DateTimeFormatter
+use StarInsure\PhpSdk\Contracts\DateTimeFormatter as Contract;
+
+class DateTimeFormatter implements Contract
 {
     // TODO
 }
