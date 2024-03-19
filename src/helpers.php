@@ -6,9 +6,9 @@ use StarInsure\PhpSdk\Contracts\DateTimeFormatter;
 use StarInsure\PhpSdk\Contracts\MoneyFormatter;
 
 if (! function_exists('formatMoney')) {
-    function formatMoney(DateTime|Carbon|string|null $date, ?string $overrideFormatString = null)
+    function formatMoney(float|int|string|null $value, ?int $decimalPlaces = 2)
     {
-        return app(MoneyFormatter::class)->format($date, $overrideFormatString);
+        return app(MoneyFormatter::class)->format($value, $decimalPlaces);
     }
 }
 
